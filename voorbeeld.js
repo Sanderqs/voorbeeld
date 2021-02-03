@@ -17,8 +17,6 @@ const res = initialState();
 console.log(res);
 
 //deconstruct
-const {
-  data: { mana },
-  status,
-} = initialState();
+const {  data: { mana },  status,} = initialState();
 console.log(mana, status);
+
